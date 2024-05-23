@@ -1,18 +1,13 @@
-import Button from "./components/button/button.js"
-import Form from "./components/form/form.js"
-import List from "./components/list/list.js"
-import Table from "./components/table/table.js"
-import Image from "./components/images/images.js"
+import Heading1,{Heading2,Heading3,Heading4,Heading5} from "./components/heading/headings.js"
 function Hello()
 {
   return(
     <div>
-      <h1>hello world</h1>
-      <Button/>
-      <Form/>
-      <List/>
-      <Table/>
-      <Image/>
+    <Heading1/>
+    <Heading2/>
+    <Heading3/>
+    <Heading4/>
+    <Heading5/>
     </div>
   )
 }
